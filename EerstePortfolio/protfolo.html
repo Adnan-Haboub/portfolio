@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="protfolo.css">
+    <script src="protfolo.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+
+        <nav>
+            <div class="logo">Mijn Portfolio</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#hobbies">Hobby's</a></li>
+                <li><a href="#results">Resultaten</a></li>
+                <li><a href="#experience">Ervaringen</a></li>
+                <li><a href="#certificates">Certificaten</a></li>
+            </ul>
+        </nav>
+
+        <img src="../mijnfoto.jpg" alt="Foto" class="circular-image"> 
+
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <h1 id="ani">Welkom op mijn Portfolio</h1>
+
+        <p> Mijn naam is Adnan Haboub en ik ben 25 jaar oud. Drie jaar geleden ben ik naar Nederland gevlucht. Ik ben geboren in Syrië,
+
+             maar mijn roots liggen in Palestina.
+
+            Momenteel volg ik de opleiding Software Developer niveau 4. Ik ben enthousiast  om een stageplek te vinden waar ik mijn kennis kan toepassen
+
+             en mijn ervaring  verder kan uitbreiden.
+            
+            Ik geniet ervan om ideeën om te zetten in waardevolle oplossingen. Met ervaring in CSS,  HTML, JavaScript, en het testen en verbeteren van websites,
+            
+            wil ik graag een positieve bijdrage leveren aan uw bedrijf.
+            
+            Ik geloof in samenwerking, open communicatie en continue groei, zowel professioneel als persoonlijk. Door voortdurend nieuwe vaardigheden te leren,
+            
+            blijf ik mezelf uitdagen om beter   te worden in wat ik doe.
+            
+            Mijn doel is om deel uit te maken van projecten die een positieve impact hebben, zowel op de gebruikers als op de organisatie zelf.
+            
+           Ik kijk ernaar uit om samen te werken en iets bijzonders te creëren!
+
+             </p>
+
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Mijn Werk</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-item">Project 1 <br>
+                 <a href="https://adnan-haboub.github.io/Adnanhaboub.github.io/" target="_blank"
+                 class="project1"> Gezondheid & Zorg</a>
+            </div>
+
+            <div class="portfolio-item" >Project 2  <br>
+                 <a href="https://adnanhaboub.w3spaces-preview.com/protfolo.html" target="_blank" 
+                 class="project1"> Mijn portfolio </a> 
+                </div>
+
+        </div>
+
+    </section>
+
+    <!-- Hobby's Section -->
+    <section id="hobbies">
+        <h2>Kwaliteiten & Hobby's </h2>
+        <ul>
+            <li>Flexibel</li>
+            <li>Teamplayer</li>
+            <li>Betrouwbaar</li>
+            <li> Meertalig [Engels] [Nederlands] [Arabisch] </li>
+            <li>Programmeren</li>
+            <li>Wandelen</li>
+            <li>Gamen</li>
+            <li>Sporten</li>
+        </ul>
+
+    </section>
+
+    <!-- Resultaten Section -->
+    <section id="results">
+        <h2>Resultaten</h2>
+        <table>
+            
+            <thead>
+                <tr>
+                    <th>Module</th>
+                    <th>Cijfer</th>
+                </tr>
+            </thead>
+            <tbody id="results-table">
+                <!-- Algemene vakken -->
+                <tr>
+                    <th colspan="2">Algemene Vakken</th>
+                </tr>
+                <tr>
+                    <td>Nederlands</td>
+                    <td>5.8</td>
+                </tr>
+                <tr>
+                    <td>Engels</td>
+                    <td>Voldoende</td>
+                </tr>
+                <tr>
+                    <td>Rekenen</td>
+                    <td>Goed</td>
+                </tr>
+                <tr>
+                    <td>Burgerschap</td>
+                    <td>Voldoende</td>
+                </tr>
+            
+                <!-- Vakinhoudelijke Onderdelen -->
+                <tr>
+                    <th colspan="2">Vakinhoudelijke Onderdelen</th>
+                </tr>
+                <tr>
+                    <td>Plannen en Ontwerpen</td>
+                    <td>7.4</td>
+                </tr>
+                <tr>
+                    <td>Realiseren</td>
+                    <td>Voldoende</td>
+                </tr>
+                <tr>
+                    <td>Computervaardigheden</td>
+                    <td>Goed</td>
+                </tr>
+                <tr>
+                    <td>Praktijk</td>
+                    <td>Voldoende</td>
+                </tr>
+                <tr>
+                    <td>Testen en Verbeteren</td>
+                    <td>8.9</td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </section>
+
+    <!-- Ervaringen Section -->
+    <section id="experience">
+        <h2>Ervaringen</h2>
+
+        <p>"Ik heb bij ShiyarAcademy een Master Certificate in CSS en HTML behaald. In 2021 werkte ik als tolk bij COA in Groningen,
+             waarvoor ik certificaten heb ontvangen. Daarnaast heb ik in Grave bij Esterade met kinderen gewerkt, waar ik twee keer als 
+             begeleider heb geholpen: de eerste keer bij het bouwen van huizen met kinderen en de tweede keer tijdens het Halloweenfeest. 
+            Ook heb ik verschillende activiteiten georganiseerd. U kunt alle certificaten onderaan deze pagina vinden"</p>
+
+    </section>
+
+    <!-- Certificaten Section -->
+    <section >
+        <h2>Certificaten</h2>
+        <ul id="certificates">
+            <li><a href="../Pages/certificates.html" target="_blank" onclick="openModal ('Certificate Master CSS', 'Ik heb deze cursus gevolgd op ShiyarAcademy')" class="cert">Certificate Master CSS</a></li>
+            <li><a href="../Pages/certificates.html" onclick="openModal('Certificate Master HTML', 'Ik heb deze cursus gevolgd op ShiyarAcademy')" class="cert">Certificate Master HTML</a></li>
+            <li><a href="../Pages/certificates.html" target="_blank" onclick="openModal('Artikel 1', 'Ik heb over de eerste artikel gestudeerd')" class="cert">Certificaat over de Artikel 1 </a></li>
+            <li><a href="../Pages/certificates.html" target="_blank" onclick="openModal('Arbeidsmarkt', 'IK heb over de arbeidsmarkt in Nederland gesturdeerd')" class="cert">Certificaat over de Arbeidsmarkt</a></li>
+            <li><a href="../Pages/certificates.html" target="_blank" onclick="openModal('Tolk bij COA', 'Ik heb verschillende activiteiten georganiseerd en ik heb als tolk gewerkt')" class="cert">Werken bij COA</a></li>
+            <li><a href="../Pages/certificates.html" target="_blank" onclick="openModal('Nederlands', 'Ik heb op KW1C Nederlands als tweede taal gestudeerd')" class="cert">De taal </a></li>
+            <li><a href="../Pages/certificates.html" target="_blank" onclick="openModal('activiteiten bij Esterade', 'Ik heb verschillende activiteiten georganiseerd en ik was begeleider van de kinderen.')" class="cert">Activiteiten</a></li>
+            <li><a href="../Pages/certificates.html" target="_blank" onclick="openModal('Halloween', 'Ik heb bij Easterade geholpen met verschillende activiteiten ')" class="cert">HalloweenFeest</a></li>
+        </ul>
+    </section>
+
+   <!-- Contact -->
+    <section id="contact">
+        
+        <form >
+            <h1>Contact</h1>
+            <input type="text" placeholder="Naam" required>
+            <input type="email" placeholder="E-mail" required>
+            <textarea placeholder="Bericht" required></textarea>
+            <button type="submit">Verzenden</button>
+        </form>
+    </section>
+    
+
+    <!-- Modal Section -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+       
+        <div class="social-links">
+            <a href="https://www.facebook.com/adnan.aboup" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/adnan_haboub/" target="_blank">Instagram</a>
+            <p>&copy; 2024 Mijn Portfolio | Alle rechten voorbehouden.</p>
+        </div>
+    </footer>
+</body>
+</html>

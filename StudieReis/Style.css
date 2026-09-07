@@ -1,0 +1,60 @@
+.story-page {
+    padding-top: 120px;
+    max-width: 900px;
+}
+
+.story {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    color: var(--text-color);
+}
+
+.story-text.center {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 80px;
+    color: var(--muted-color);
+}
+
+.story-text.end {
+    margin-top: 100px;
+    font-style: italic;
+}
+
+.story-block {
+    margin-bottom: 120px;
+    position: relative;
+}
+
+.story-block p {
+    max-width: 600px;
+}
+
+.story-block img {
+    width: 320px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 15px 30px var(--shadow-color);
+    transition: transform 0.3s ease;
+}
+
+.story-block img:hover {
+    transform: scale(1.04);
+}
+
+.float-left {
+    float: left;
+    margin: 0 40px 20px -120px;
+}
+
+.float-right {
+    float: right;
+    margin: 0 0px 20px 10px;
+}
+
+/* Clear float */
+.story-block::after {
+    content: "";
+    display: block;
+    clear: both;
+}
